@@ -1,0 +1,13 @@
+JS event handlers works in very strange way.
+
+in total js event hadlers has 3 steps
+
+1. Event Capturing 
+2. Target capture
+3. Bubbling  => Event ocuurs
+
+Lets consider 3 elements A,B,C 
+A is the biggest container, B is little less than A and C is smallest one, nesting on top of each other.
+now lets attach event handlers to all of them.
+now when we touch the element C, we are technically touching A and B too, but the event should first trigger at C, right?
+and hence JS Engine triggers the event in Bubbling phase.

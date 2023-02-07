@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sec {
+  margin: 10%;
+  border: 2px solid black;
+  padding: 10%;
+
+  cursor: pointer;
+}
+
+.div {
+  border: 2px solid black;
+  padding: 10%;
+  display: block;
+
+  cursor: pointer;
+}
+
+.pr {
+  cursor: pointer;
+  text-align: center;
+}
